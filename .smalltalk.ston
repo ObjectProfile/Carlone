@@ -1,0 +1,16 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #configuration : 'Carlone',
+      #repository : 'http://smalltalkhub.com/mc/ObjectProfile/Carlone/main/',
+      #load : [ 'default' ],
+      #platforms : [ #pharo ],
+      #version: #development
+    }
+  ],
+
+  #testing : {
+   #categories : [ 'Carlone-Tests', 'Carlone-BuilderLegend'
+ ]
+   }
+}
