@@ -2,7 +2,7 @@ SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
       #configuration : 'Carlone',
-      #repository : 'http://smalltalkhub.com/mc/ObjectProfile/Carlone/main/',
+      #repository : 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo60/main/',
       #load : [ 'default' ],
       #platforms : [ #pharo ],
       #version: #development
