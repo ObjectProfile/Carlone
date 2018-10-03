@@ -1,3 +1,0 @@
-accessing
-maxZoom
-	^ 3 

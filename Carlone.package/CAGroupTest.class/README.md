@@ -1,1 +1,0 @@
-A CAGroupTest is a test class for testing the behavior of CAGroup

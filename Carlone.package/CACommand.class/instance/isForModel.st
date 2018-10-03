@@ -1,3 +1,0 @@
-accessing
-isForModel
-	^  isForModel

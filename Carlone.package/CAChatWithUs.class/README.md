@@ -1,1 +1,0 @@
-I have the link to discord page

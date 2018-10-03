@@ -1,1 +1,0 @@
-Like GeometryShape but for labels

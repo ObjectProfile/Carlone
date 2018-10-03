@@ -1,3 +1,0 @@
-accessing
-isPostload
-	^ isPreloadAction not

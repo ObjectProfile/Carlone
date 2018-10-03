@@ -1,3 +1,0 @@
-accessing
-labelClass
-	^ self secondClass

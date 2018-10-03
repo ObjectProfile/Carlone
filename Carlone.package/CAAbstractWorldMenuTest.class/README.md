@@ -1,1 +1,0 @@
-I am a test class for the world menu of carlone

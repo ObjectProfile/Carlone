@@ -1,2 +1,0 @@
-A CaGroup represents collections of Bloc elements. A CaGroup is not designed to contain other things than Bloc elements. 
-A CaGroup is polymorphic to BlElement. When an BlElement  is expected, one can provide an CaGroup.

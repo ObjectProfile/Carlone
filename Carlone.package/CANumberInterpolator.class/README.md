@@ -1,1 +1,0 @@
-I am the basic interpolator for numbers

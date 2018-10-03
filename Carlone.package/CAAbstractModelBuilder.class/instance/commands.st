@@ -1,3 +1,0 @@
-accesing
-commands
-	^ commands ifNil: [ #() ]

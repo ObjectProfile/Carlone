@@ -1,1 +1,0 @@
-I am the interpolator  for colors

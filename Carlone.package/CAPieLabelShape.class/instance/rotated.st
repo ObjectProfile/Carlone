@@ -1,3 +1,0 @@
-accessing
-rotated
-	rotated := true.

@@ -1,1 +1,0 @@
-I am an abstract class to create visualizatations for trees collection data

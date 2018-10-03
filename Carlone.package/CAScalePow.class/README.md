@@ -1,1 +1,0 @@
-I scale using pow function

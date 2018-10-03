@@ -1,3 +1,0 @@
-tests
-testWoldMenuHowToReportBug
-	CAHowToReportABug new open delete

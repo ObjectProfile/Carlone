@@ -1,1 +1,0 @@
-I can handle a several kind of values

@@ -1,3 +1,0 @@
-tests
-testDrawingWithSparta01
-	arc buildPathOnSpartaCanvas: Bloc preferableSpartaCanvas offscreen.

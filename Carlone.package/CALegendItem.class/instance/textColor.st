@@ -1,3 +1,0 @@
-utility
-textColor
-	^ Color lightGray

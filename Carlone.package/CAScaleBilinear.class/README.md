@@ -1,1 +1,0 @@
-I represent a bilinear range for 2 limits, start and end

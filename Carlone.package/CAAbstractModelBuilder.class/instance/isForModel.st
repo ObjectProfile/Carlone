@@ -1,3 +1,0 @@
-testing
-isForModel
-	^ isForElement not

@@ -1,1 +1,0 @@
-Based on http://webstaff.itn.liu.se/~stegu/simplexnoise/simplexnoise.pdf

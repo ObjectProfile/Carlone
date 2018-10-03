@@ -1,1 +1,0 @@
-I am a utility clas for CAScalePow

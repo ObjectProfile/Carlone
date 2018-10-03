@@ -1,4 +1,0 @@
-tests
-testEmptyLayout
-
-	RTCircleLayout on: #()

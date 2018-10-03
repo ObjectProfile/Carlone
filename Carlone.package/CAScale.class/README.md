@@ -1,1 +1,0 @@
-I am a common scale interpolator, just put your entry value and this objects scale and return the value in your domain

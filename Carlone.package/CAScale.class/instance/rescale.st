@@ -1,3 +1,0 @@
-hooks
-rescale
-	self subclassResponsibility
