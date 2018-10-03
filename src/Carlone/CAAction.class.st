@@ -1,3 +1,10 @@
+"
+I am used in subclasses of CAAbstractModelBuilder. 
+CAAbstractModelBuilder can create objects of anything based on 2 components, element and target.
+the element has the model, the real object. target can be another object.
+
+Instances of CAAbstractModelBuilder usually creates this 2 components and then uses accessors to modify the object created. by the commands of CAAbstractModelBuilder. CAAction allows you to modify these objects before and after their creation.
+"
 Class {
 	#name : #CAAction,
 	#superclass : #CAObject,
@@ -6,7 +13,7 @@ Class {
 		'isPreloadAction',
 		'element'
 	],
-	#category : #'Carlone-Core2'
+	#category : #'Carlone-Core'
 }
 
 { #category : #accessing }

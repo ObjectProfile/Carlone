@@ -1,3 +1,6 @@
+"
+I am the test class for BlEasingElastic2
+"
 Class {
 	#name : #BlEasingElastic2Test,
 	#superclass : #CATest,

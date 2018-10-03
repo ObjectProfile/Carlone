@@ -37,7 +37,7 @@ CAColorFadingLegendItem >> execute [
 			c linear weight: 1 ];
 		yourself.	
 	
-	box := CAGeometryShape box
+	box := CAGeometryBuilder box
 		background: (BlLinearGradientPaint new
         stops: {
             (0.0 -> colors first).

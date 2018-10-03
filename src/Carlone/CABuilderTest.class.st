@@ -14,8 +14,8 @@ CABuilderTest >> testBasic [
 	self assert: b shape equals: nil.
 	
 	self assert: b root class equals: BlElement.
-	b shape: CAGeometryShape arc.
-	self assert: b shape class equals: CAGeometryShape.
+	b shape: CAGeometryBuilder arc.
+	self assert: b shape class equals: CAGeometryBuilder.
 	b build.
 ]
 
@@ -23,6 +23,6 @@ CABuilderTest >> testBasic [
 CABuilderTest >> testElementOn [
 	| b |
 	b := CABuilder new.
-	b shape: CAGeometryShape arc.
+	b shape: CAGeometryBuilder arc.
 	self assert: (b elementOn: 1) class equals: BlElement.
 ]

@@ -13,7 +13,7 @@ CALayoutExamples >> tree [
 	| c eb |
 	c := CACompose new.
 
-	c addAll: (CAGeometryShape box elementsOn: (Collection withAllSubclasses)).
+	c addAll: (CAGeometryBuilder box elementsOn: (Collection withAllSubclasses)).
 	c treeLayout.
 
 	eb := CAEdgeBuilder new.

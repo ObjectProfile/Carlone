@@ -1,10 +1,10 @@
 "
-I am the layout builder
+I am the layout builder, I can create an generate different layouts
 "
 Class {
 	#name : #CALayoutBuilder,
-	#superclass : #CAAbstractModelDescriptor,
-	#category : #'Carlone-Core-OLD-TODELETE'
+	#superclass : #CAAbstractModelBuilder,
+	#category : #'Carlone-Core'
 }
 
 { #category : #public }

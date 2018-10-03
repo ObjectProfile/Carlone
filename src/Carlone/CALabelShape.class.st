@@ -3,7 +3,7 @@ Like GeometryShape but for labels
 "
 Class {
 	#name : #CALabelShape,
-	#superclass : #CAAbstractModelDescriptor,
+	#superclass : #CAAbstractModelBuilder,
 	#traits : 'TBlTextStyleable',
 	#classTraits : 'TBlTextStyleable classTrait',
 	#instVars : [
@@ -28,11 +28,6 @@ CALabelShape >> attributesBuilder [
 	^ attributes
 ]
 
-{ #category : #'public - configuration' }
-CALabelShape >> color: color [ 
-	attributes add: (BrTextForegroundAttribute paint: color)
-]
-
 { #category : #public }
 CALabelShape >> elementOn: object index: index [
 	| element text |
@@ -44,15 +39,10 @@ CALabelShape >> elementOn: object index: index [
 	text := self labelClass string: (self textFor: element) asString.
 	element text: text.
 	attributes applyOn: text.
-	self updateElement: element second: text.
+	self updateElement: element innerComponent: text.
 	interaction ifNotNil: [ interaction setUpElement: element ].
 	^ element.
 	
-]
-
-{ #category : #'public - configuration' }
-CALabelShape >> fontFamily: aString [
-	attributes add: (BrFontFamilyAttribute named: aString)
 ]
 
 { #category : #text }
@@ -85,12 +75,12 @@ CALabelShape >> interaction [
 
 { #category : #accessing }
 CALabelShape >> labelClass [
-	^ self secondClass
+	^ self innerClass
 ]
 
 { #category : #accessing }
 CALabelShape >> labelClass: aClass [
-	self secondClass: aClass.
+	self innerClass: aClass.
 	self elementClass: BlTextElement.
 ]
 

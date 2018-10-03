@@ -42,7 +42,7 @@ CATreeMapBuilder >> highestAspectRatioFor: row remainingSpace: remainingSpace [
 { #category : #initialization }
 CATreeMapBuilder >> initialize [
 	super initialize.
-	shape := CAGeometryShape box
+	shape := CAGeometryBuilder box
 		background: Color white;
 		border: (BlBorder builder paint: Color black; width: 1; build).
 		

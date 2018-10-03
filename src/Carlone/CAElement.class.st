@@ -8,7 +8,7 @@ Class {
 		'caModel',
 		'caIndex'
 	],
-	#category : #'Carlone-Core-OLD-TODELETE'
+	#category : #'Carlone-Core'
 }
 
 { #category : #accessing }

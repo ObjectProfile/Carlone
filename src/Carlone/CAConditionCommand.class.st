@@ -1,3 +1,27 @@
+"
+I am a condition command. my use is the next.
+-------------------------------
+shape := CAGeometryBuilder box
+	size: 40;
+	if: [ :m | m even ] actions: [ 
+		shapes background: Color red ].
+	
+shape elementsOn: (1 to: 10).
+-------------------------------
+Subclasses of CAAbstractModelBuilder can use the method #if:actions: 
+The previous method creates the CAConditionCommand to create elements based on a condition.
+
+the condition'block can be a block or a symbol, the actions'block can recive or not an argument
+
+-------------------------------
+(CAGeometryBuilder box
+	size: 40;
+	background: Color blue;
+	if: #even actions: [ :s|
+		s background: Color red ]) elementsOn: (1 to: 10).
+-------------------------------
+
+"
 Class {
 	#name : #CAConditionCommand,
 	#superclass : #CACommand,
@@ -5,7 +29,7 @@ Class {
 		'condition',
 		'builder'
 	],
-	#category : #'Carlone-Core2'
+	#category : #'Carlone-Core'
 }
 
 { #category : #accessing }

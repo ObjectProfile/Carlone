@@ -21,7 +21,7 @@ CAPieBuilderTest >> testArcPadding [
 	builder slice: #numberOfMethods.
 	builder shape
 		segmentSpacing: 1.
-	self assert: (builder shape globalAttributeAt: #segmentSpacing:) first class equals: BlockClosure.
+	self assert: (builder shape commands last) class equals: CACommand.
 	builder build.
 ]
 

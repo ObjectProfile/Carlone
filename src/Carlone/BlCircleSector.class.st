@@ -1,5 +1,17 @@
 "
-I am the defult arc for 
+I am a subclass of a BlGeometry, I am a bloc component to create circle parts.
+
+You can create my subclass in this way:
+
+.=.=.=.=.=.=.=.=.=.=.=.=.=
+arc := BlCircleSector new
+		alphaAngle: 0;
+		betaAngle: 360;
+		innerRadius: 0;
+		externalRadius: 100.
+.=.=.=.=.=.=.=.=.=.=.=.=.=	
+
+then you can add it into a BlElement to visualize it
 "
 Class {
 	#name : #BlCircleSector,

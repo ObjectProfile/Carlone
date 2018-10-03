@@ -10,27 +10,22 @@ Class {
 { #category : #tests }
 CAShapeTest >> testBasic [
 	| shape |
-	shape := CAGeometryShape arc.
-	shape
-		backgroundElement:  Color red.
+	shape := CAGeometryBuilder arc.
+	shape background:  Color red.
 	self assert: shape geometryClass equals: BlCircleSector.
-	self assert: (shape globalAttributeAt: #background:) equals: {Color red}.
+	self assert: shape commands last message arguments first equals: Color red.
 ]
 
 { #category : #tests }
 CAShapeTest >> testBasicBox [
 	| shape element geometry |
-	shape := CAGeometryShape box.
+	shape := CAGeometryBuilder box.
 	shape
 		"initializeWith: 2; For corner radius"
 		size: 40;
 		background: Color lightGray.
 		
 	self assert: shape geometryClass equals: BlRectangle.
-	
-	self assert: (shape globalAttributeAt: #background:) class equals: Array.
-	
-	"shape cornerRadius: 10."
 	
 	element := shape elementOn: 'foobar'.
 	geometry := element geometry.
@@ -45,13 +40,12 @@ CAShapeTest >> testBasicBox [
 { #category : #tests }
 CAShapeTest >> testBasicEllipse [
 	| shape element geometry |
-	shape := CAGeometryShape ellipse.
+	shape := CAGeometryBuilder ellipse.
 	shape
 		diameter:  100;
 		background: Color lightGray.
 		
 	self assert: shape geometryClass equals: BlEllipse.
-	self assert: (shape globalAttributeAt: #background:) class equals: Array.
 	
 	element := shape elementOn: 'foobar'.
 	geometry := element geometry.
@@ -66,7 +60,7 @@ CAShapeTest >> testBasicEllipse [
 CAShapeTest >> testInitialSize [
 
 	| boxAsBlocElement |
-	boxAsBlocElement := CAGeometryShape box element.
+	boxAsBlocElement := CAGeometryBuilder box element.
 	boxAsBlocElement computeLayout.
 	self assert: boxAsBlocElement extent equals: 5 @ 5
 ]
@@ -74,7 +68,7 @@ CAShapeTest >> testInitialSize [
 { #category : #tests }
 CAShapeTest >> testInitialSize2 [
 	| someElements |
-	someElements := CAGeometryShape box elementsOn: #(1 2).
+	someElements := CAGeometryBuilder box elementsOn: #(1 2).
 	someElements do: #computeLayout.
 	self assert: someElements first extent equals: 5 @ 5.
 	self assert: someElements second extent equals: 5 @ 5

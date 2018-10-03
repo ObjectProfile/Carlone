@@ -17,9 +17,10 @@ Class {
 	#name : #CAGeometryBuilder,
 	#superclass : #CAAbstractModelBuilder,
 	#instVars : [
-		'interaction'
+		'interaction',
+		'layout'
 	],
-	#category : #'Carlone-Core2'
+	#category : #'Carlone-Core'
 }
 
 { #category : #'instance creation' }
@@ -170,6 +171,21 @@ CAGeometryBuilder >> elementOn: object index: index [
 	
 ]
 
+{ #category : #'public - accessing' }
+CAGeometryBuilder >> elementsOn: objects forEach: aBloc [
+	^ self elementsOn: objects forEachElement: [ :e | aBloc value: e caModel ].
+]
+
+{ #category : #'public - accessing' }
+CAGeometryBuilder >> elementsOn: objects forEachElement: aBloc [
+	| elements |
+	elements := self elementsOn: objects.
+	elements do: [ :el | 
+		el addChildren: (aBloc value: el).
+		layout ifNotNil: [ layout setUpElement: el ] ].
+	^ elements
+]
+
 { #category : #accessing }
 CAGeometryBuilder >> geometryClass [
 	^ self innerClass
@@ -179,6 +195,8 @@ CAGeometryBuilder >> geometryClass [
 CAGeometryBuilder >> geometryClass: aClass [
 	self
 		innerClass: aClass;
+		size: 5;
+		background: Color gray;
 		elementClass: BlElement.
 ]
 
@@ -194,6 +212,16 @@ CAGeometryBuilder >> interaction [
 		self addAction: (CAAction new
 			action: [ :el | interaction setUpElement: el ]).
 		interaction ].
+]
+
+{ #category : #accessing }
+CAGeometryBuilder >> layout [
+	^ layout ifNil: [ 
+		layout := CALayoutBuilder new grid.
+		self addAction: (CAAction new
+			postload;
+			action: [ :el | interaction setUpElement: el ]).
+		layout ].
 ]
 
 { #category : #'public - accessing' }

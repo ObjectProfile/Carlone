@@ -12,7 +12,7 @@ CAComposeExamples >> basic01 [
 	<script: 'self new basic01 inspect'>
 	| ca |
 	ca := CACompose new.
-	ca addAll: (CAGeometryShape box elementsOn: (1 to: 30)).
+	ca addAll: (CAGeometryBuilder box elementsOn: (1 to: 30)).
 	ca grid.
 	^ ca 
 ]
@@ -22,7 +22,7 @@ CAComposeExamples >> basic02 [
 	<script: 'self new basic02 inspect'>
 	| ca boxes |
 	ca := CACompose new.
-	boxes := CAGeometryShape box elementsOn: (1 to: 30).
+	boxes := CAGeometryBuilder box elementsOn: (1 to: 30).
 	boxes @ CAPopup.
 	ca addAll: boxes.
 	ca grid.
@@ -72,9 +72,10 @@ CAComposeExamples >> example02BasicComposeWithLayout [
 	| v box blueBox elements first second l |
 	v := CACompose new.
 	
-	box := CAGeometryShape box
+	box := CAGeometryBuilder box
 		size: #yourself;
 		background: Color lightGray;
+		onElement;
 		when: [ :e | e caModel = 120 
 			ifTrue: [ BlMouseEnterEvent  ] 
 			ifFalse: [ BlDoubleClickEvent ] ]  
@@ -86,7 +87,7 @@ CAComposeExamples >> example02BasicComposeWithLayout [
 	elements := box
 		elementsOn: (10 to: 200 by: 10)
 		forEach: [ :aNumber | 
-			blueBox := CAGeometryShape box
+			blueBox := CAGeometryBuilder box
 				size: 5;
 				background: Color blue.
 			blueBox interaction popup.
@@ -142,7 +143,8 @@ CAComposeExamples >> example03Pies [
 		b shape
 			externalRadius: r;
 			innerRadius: r * 0.6;
-			backgroundElement: [:e | color scale: e caIndex ];
+			onElement;
+			background: [:e | color scale: e caIndex ];
 			segmentSpacing: 0.5.
 		b centerGap: (padding /2) asPoint.
 		view addVisualization: b.
@@ -156,7 +158,7 @@ CAComposeExamples >> exampleWithEdges [
 	<script: 'self new exampleWithEdges inspect'>
 	| c eb |
 	c := CACompose new.
-	c addAll: (CAGeometryShape box elementsOn: (1 to: 20)).
+	c addAll: (CAGeometryBuilder box elementsOn: (1 to: 20)).
 	c grid.
 	c build.
 	eb := CAEdgeBuilder new.
@@ -172,7 +174,7 @@ CAComposeExamples >> exampleWithLayoutBuilder [
 
 	| c eb lb |
 	c := CACompose new.
-	c addAll: (CAGeometryShape box 
+	c addAll: (CAGeometryBuilder box 
 					"size: #numberOfMethods;"
 					elementsOn: (Collection withAllSubclasses)).
 

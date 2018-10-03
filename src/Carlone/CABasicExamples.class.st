@@ -630,19 +630,19 @@ CABasicExamples >> example07RainbowArc [
 			c vertical matchParent ].
 	1 to: 7 do: [ :i | | index |
 		index := i + 6.
-		shape := CAGeometryShape arc
+		shape := CAGeometryBuilder arc
 			innerRadius: (radius scale: index);
 			externalRadius: (radius scale: index + 1);
 			relocate: [ 350 asPoint - (radius scale: index + 1) ];
 			alphaAngle: [ :m | m + (i * 50) - 320 + 3 ];
 			betaAngle: [ :m | m + 20 + (i * 50) - 320 - 3 ];
 			background: [:m | (Color h: m s: 0.5 l: 0.5) lighter ];
-			if: [ :m | m > 180] 
-				background: [ :m | (Color h: m s: 0.5 l: 0.5) darker ];
-			if: [ :m | m = 240] 
-				background: [ :m | (Color h: m s: 0.5 l: 0.5) adjustBrightness: -0.2 ];
-			if: [ :m | m = 260] 
-				background: [ :m | (Color h: m s: 0.5 l: 0.5) muchDarker].
+			if: [ :m | m > 180] actions: [ :s | 
+				s background: [ :m | (Color h: m s: 0.5 l: 0.5) darker ] ];
+			if: [ :m | m = 240] actions: [ :s |
+				s background: [ :m | (Color h: m s: 0.5 l: 0.5) adjustBrightness: -0.2 ] ];
+			if: [ :m | m = 260] actions: [ :s | 
+				s background: [ :m | (Color h: m s: 0.5 l: 0.5) muchDarker] ].
 		root addChildren: (shape elementsOn: (0 to: 360 by: 20)).
 		 ].
 	^ root
@@ -673,7 +673,7 @@ CABasicExamples >> example08DownloadingWithArcs [
 	aAngle := CAScale linear
 		domain: #(0 25 100);
 		range: #(90 0 -270).
-	shape := CAGeometryShape arc
+	shape := CAGeometryBuilder arc
 		innerRadius: 80;
 		externalRadius: 90;
 		alphaAngle: 0;
@@ -681,7 +681,7 @@ CABasicExamples >> example08DownloadingWithArcs [
 		background: Color lightGray;
 		relocate: [ 100 asPoint - 90 ].
 	root addChild: shape element.
-	shape := CAGeometryShape arc 
+	shape := CAGeometryBuilder arc 
 		innerRadius: 78;
 		cornerRadius: 10;
 		externalRadius: 92;
@@ -1070,7 +1070,7 @@ CABasicExamples >> example18LabelInPie [
 		segmentSpacing: 0.4.
 	builder label 
 		fontSize: 13;
-		fontFamily: 'Courier';
+		fontName: 'Courier';
 		text: [:obj | obj key,', ',
 			(obj value * 100 / builder totalSum) rounded asString, '%' ].
 	builder build.

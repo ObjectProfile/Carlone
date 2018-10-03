@@ -9,7 +9,7 @@ Class {
 		'rootNodes',
 		'weight'
 	],
-	#category : #'Carlone-Core-OLD-TODELETE'
+	#category : #'Carlone-Core'
 }
 
 { #category : #private }

@@ -1,5 +1,9 @@
 "
-I am a subclass of BlPolygon, But with the posibility of create a different stars
+I am a subclass of BlPolygon, But with the posibility of create a different stars. i am mutable. this means that you can set my #sides: or #innerRadius: of my start. the inner radius must be a number between 0 and 1.
+
+Also you can see CAGeometryBuilder star to create elements with stars.
+
+check this example it is pretty cool CABasicExamples >> #example03Stars
 "
 Class {
 	#name : #BlStar,

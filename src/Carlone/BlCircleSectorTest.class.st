@@ -40,6 +40,7 @@ BlCircleSectorTest >> testBasic [
 
 { #category : #tests }
 BlCircleSectorTest >> testCentro [
+	"the centroid of this arc is a point"
 	self assert: (arc centro: 0) equals: (50.0@100.0)
 ]
 

@@ -29,7 +29,7 @@ CAPopup >> initialize [
 	super initialize.
 	label := CALabelShape label.
 	
-	box := CAGeometryShape box
+	box := CAGeometryBuilder box
 		"cornerRadius: 2;"
 		matchExtent: 100 asPoint;
 		background: (Color colorFrom: '#efefef');

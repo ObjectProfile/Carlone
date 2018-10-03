@@ -46,7 +46,7 @@ CATreeMapBuilderExamples >> example03TreemapNumbers [
 	b := CATreeMapBuilder new.
 	b shape 
 		background: Color gray;
-		if: #even background: Color veryLightGray.
+		if: #even actions: [ :s | s background: Color veryLightGray].
 	b 
 		extent: 400 asPoint;
 		explore: 1
@@ -68,7 +68,7 @@ CATreeMapBuilderExamples >> example04CollectionSubclasses [
 		background: Color gray;
 		border: (BlBorder builder paint: Color black; width: 0.5; build);
 		if: [ :cls | (Smalltalk classNamed: cls name, 'Test') notNil ]
-			background: Color green.
+			actions: [ :s | s background: Color green ].
 	b
 		leafWeight: #linesOfCode;
 		explore: Collection using: #subclasses;
@@ -92,7 +92,7 @@ b
 	explore: Magnitude using: #subclasses;
 	build.
 shape := CALabelShape label
-	color: Color black;
+	foreground: Color black;
 	addEventHandler: BlPullHandler new.
 	
 b elements do: [ :el | | p |

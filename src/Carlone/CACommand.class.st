@@ -7,6 +7,20 @@ My main mission is
 * execute this message with a lot of elements
 * difference when apply this command to the main element or its inner component 'target'
 * difference when apply the argument to its model or its element 'argumentTarget'
+
+Example: 
+| shape |
+shape:= CAGeometryBuilder box. ""Now this shape can creates boxes""
+shape background: Color red. ""There are not visual elements at this point""
+""the previous method does not exist in CAGeometryBuilder or its superclasses""
+""this will be execute when someone creates a box with this shape""
+""We just set the properties of our future elements""
+shape size: [ :model |
+	model * 10 ] . ""we can use the model to set the correct property""
+shape border: (BlBorder paint: Color black). ""we have one border for all the future boxes""
+
+shape elementsOn: (1 to: 10). ""Now we have boxes""
+""#elementsOn: runs with a collection, but you can use #elementOn:, or simple #element"".
 "
 Class {
 	#name : #CACommand,
@@ -17,7 +31,7 @@ Class {
 		'component',
 		'isForModel'
 	],
-	#category : #'Carlone-Core2'
+	#category : #'Carlone-Core'
 }
 
 { #category : #'accessing - computed' }

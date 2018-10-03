@@ -34,7 +34,7 @@ CAColorLegendItem >> execute [
 			c linear weight: 1 ];
 		yourself.	
 	
-	box := CAGeometryShape box
+	box := CAGeometryBuilder box
 		background: color;
 		matchExtent: textSize @ textSize;
 		element.

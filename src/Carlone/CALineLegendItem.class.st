@@ -33,7 +33,7 @@ CALineLegendItem >> execute [
 			c linear weight: 1 ];
 		yourself.	
 	
-	box := CAGeometryShape box
+	box := CAGeometryBuilder box
 		background: color;
 		matchExtent: (textSize * 2) @ (textSize * 0.4);
 		element.

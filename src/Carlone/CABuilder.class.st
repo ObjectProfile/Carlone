@@ -1,5 +1,5 @@
 "
-I am the base builder
+I am the base for custom visualization, like sunburst, treemap, grapher custom visualizations with different interactions. In order to change the domain and obtain a the same visualization
 "
 Class {
 	#name : #CABuilder,
@@ -8,7 +8,7 @@ Class {
 		'rootElement',
 		'shape'
 	],
-	#category : #'Carlone-Core-OLD-TODELETE'
+	#category : #'Carlone-Core'
 }
 
 { #category : #public }

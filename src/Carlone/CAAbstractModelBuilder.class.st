@@ -20,7 +20,7 @@ Class {
 		'commands',
 		'actions'
 	],
-	#category : #'Carlone-Core2'
+	#category : #'Carlone-Core'
 }
 
 { #category : #actions }

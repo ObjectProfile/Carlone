@@ -8,7 +8,7 @@ Class {
 	#instVars : [
 		'elementFromModelCache'
 	],
-	#category : #'Carlone-Core-OLD-TODELETE'
+	#category : #'Carlone-Core'
 }
 
 { #category : #interaction }

@@ -2,6 +2,8 @@
 A new basic interpolation for elasticity.
 
 use elasticity:and: to change the elasticity result
+
+I am very usefull for interpolations for animations in bloc, to add my unique elastic style :D
 "
 Class {
 	#name : #BlEasingElastic2,

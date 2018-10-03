@@ -187,7 +187,7 @@ CALegendBuilder >> initialize [
 	textSize := 12.
 	gapSize := 10.
 	items := OrderedCollection new.
-	boxShape := CAGeometryShape box
+	boxShape := CAGeometryBuilder box
 		background: Color white.
 	
 	isFixed := false
