@@ -1,0 +1,3 @@
+*Carlone
+encompassingRectangle
+	^ self bounds

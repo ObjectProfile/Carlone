@@ -1,0 +1,4 @@
+tests
+testEmptyLayout
+
+	RTRadialTreeLayout on: #()

@@ -1,0 +1,3 @@
+*Carlone
+caValue: anArgument 
+	^ self

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "akevalion 3/1/2018 15:02",
+	"super" : "CAAbstractModelDescriptor",
+	"category" : "Carlone-Core-OLD-TODELETE",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CALayoutBuilder",
+	"type" : "normal"
+}

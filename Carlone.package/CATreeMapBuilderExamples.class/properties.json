@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "akevalion 3/16/2018 19:56",
+	"super" : "CAAbstractExamples",
+	"category" : "Carlone-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CATreeMapBuilderExamples",
+	"type" : "normal"
+}

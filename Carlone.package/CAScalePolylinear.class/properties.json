@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "akevalion 2/8/2018 19:34",
+	"super" : "CAScale",
+	"category" : "Carlone-Scales",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"k",
+		"u",
+		"i"
+	],
+	"name" : "CAScalePolylinear",
+	"type" : "normal"
+}

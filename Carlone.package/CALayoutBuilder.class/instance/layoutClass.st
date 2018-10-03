@@ -1,0 +1,3 @@
+accessing
+layoutClass
+	^ self secondClass

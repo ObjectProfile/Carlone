@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "akevalion 2/23/2018 22:03",
+	"super" : "CAInteraction",
+	"category" : "Carlone-Interaction",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"label",
+		"box"
+	],
+	"name" : "CAPopup",
+	"type" : "normal"
+}

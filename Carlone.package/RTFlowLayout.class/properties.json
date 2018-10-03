@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "RTAbstractFlowLayout",
+	"category" : "Carlone-Roassal-layouts",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "RTFlowLayout",
+	"type" : "normal"
+}

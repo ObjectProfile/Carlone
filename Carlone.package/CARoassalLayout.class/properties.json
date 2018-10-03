@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "BlFitLayout",
+	"category" : "Carlone-Roassal-layouts",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"layout"
+	],
+	"name" : "CARoassalLayout",
+	"type" : "normal"
+}

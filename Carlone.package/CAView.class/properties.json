@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "CAObject",
+	"category" : "Carlone-Core2",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"root",
+		"collection",
+		"children",
+		"content",
+		"scrollable",
+		"container",
+		"layoutBuilder"
+	],
+	"name" : "CAView",
+	"type" : "normal"
+}

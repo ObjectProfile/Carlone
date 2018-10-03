@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "CATest",
+	"category" : "Carlone-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"view",
+		"elements",
+		"b"
+	],
+	"name" : "CAEdgeBuilderTest",
+	"type" : "normal"
+}

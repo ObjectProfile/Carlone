@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "RTLayout",
+	"category" : "Carlone-Roassal-layouts",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"edges",
+		"userDefinedEdges",
+		"fromPositions",
+		"toPositions",
+		"shouldSetDefaultAttachPoint"
+	],
+	"name" : "RTEdgeDrivenLayout",
+	"type" : "normal"
+}

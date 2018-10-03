@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "CATest",
+	"category" : "Carlone-Roassal-layouts-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"nodes",
+		"quad"
+	],
+	"name" : "RTQuadTreeTest",
+	"type" : "normal"
+}

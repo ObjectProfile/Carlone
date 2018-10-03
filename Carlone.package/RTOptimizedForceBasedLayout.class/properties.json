@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "RTForceBasedLayout",
+	"category" : "Carlone-Roassal-layouts",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"mockElements"
+	],
+	"name" : "RTOptimizedForceBasedLayout",
+	"type" : "normal"
+}

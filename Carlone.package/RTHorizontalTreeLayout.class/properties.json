@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "RTAbstractHorizontalTreeLayout",
+	"category" : "Carlone-Roassal-layouts",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "RTHorizontalTreeLayout",
+	"type" : "normal"
+}

@@ -1,0 +1,3 @@
+hooks
+rescale
+	self subclassResponsibility

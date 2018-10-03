@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "akevalion 2/7/2018 23:59",
+	"super" : "CAAbstractWorldMenu",
+	"category" : "Carlone-WorldMenu",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CAAbout",
+	"type" : "normal"
+}

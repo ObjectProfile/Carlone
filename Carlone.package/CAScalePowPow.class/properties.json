@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "akevalion 2/19/2018 18:04",
+	"super" : "CAObject",
+	"category" : "Carlone-Scales",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"exponent"
+	],
+	"name" : "CAScalePowPow",
+	"type" : "normal"
+}

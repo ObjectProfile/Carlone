@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "akevalion 2/26/2018 11:22",
+	"super" : "CALabelShape",
+	"category" : "Carlone-Builder-Pie",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"rotated",
+		"offset",
+		"builder",
+		"start"
+	],
+	"name" : "CAPieLabelShape",
+	"type" : "normal"
+}

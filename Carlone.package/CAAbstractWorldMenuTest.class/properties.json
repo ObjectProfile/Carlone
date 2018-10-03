@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "akevalion 3/16/2018 16:21",
+	"super" : "CATest",
+	"category" : "Carlone-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CAAbstractWorldMenuTest",
+	"type" : "normal"
+}

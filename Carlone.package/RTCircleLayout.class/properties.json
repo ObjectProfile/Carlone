@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "RTAbstractCircleLayout",
+	"category" : "Carlone-Roassal-layouts",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "RTCircleLayout",
+	"type" : "normal"
+}

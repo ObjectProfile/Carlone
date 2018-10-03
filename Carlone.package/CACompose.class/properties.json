@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "akevalion 2/26/2018 21:37",
+	"super" : "CABuilder",
+	"category" : "Carlone-Builder-Compose",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CACompose",
+	"type" : "normal"
+}

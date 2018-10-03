@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "akevalion 2/26/2018 17:29",
+	"super" : "CAObject",
+	"category" : "Carlone-Interaction",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"interactions"
+	],
+	"name" : "CAInteractionBuilder",
+	"type" : "normal"
+}

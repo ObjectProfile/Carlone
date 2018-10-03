@@ -1,0 +1,3 @@
+accessing
+segmentSpacing
+	^ arcPadding

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "akevalion 2/27/2018 21:01",
+	"super" : "CAInteraction",
+	"category" : "Carlone-Interaction",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CAZoomable",
+	"type" : "normal"
+}

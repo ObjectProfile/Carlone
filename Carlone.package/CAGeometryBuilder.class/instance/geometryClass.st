@@ -1,0 +1,3 @@
+accessing
+geometryClass
+	^ self innerClass

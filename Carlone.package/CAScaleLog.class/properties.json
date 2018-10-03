@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "akevalion 2/19/2018 17:25",
+	"super" : "CAScaleLinear",
+	"category" : "Carlone-Scales",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"linear",
+		"base",
+		"positive"
+	],
+	"name" : "CAScaleLog",
+	"type" : "normal"
+}

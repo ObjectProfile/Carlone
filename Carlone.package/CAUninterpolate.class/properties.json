@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "akevalion 2/8/2018 19:26",
+	"super" : "CAObject",
+	"category" : "Carlone-Scales",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"a",
+		"b"
+	],
+	"name" : "CAUninterpolate",
+	"type" : "normal"
+}

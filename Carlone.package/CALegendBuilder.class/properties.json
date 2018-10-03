@@ -1,0 +1,24 @@
+{
+	"commentStamp" : "AlexandreBergel 7/10/2015 11:41",
+	"super" : "CABuilder",
+	"category" : "Carlone-Builder-Legend",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"items",
+		"group",
+		"legendElement",
+		"offset",
+		"position",
+		"isOnDemand",
+		"textSize",
+		"gapSize",
+		"isFixed",
+		"onDemandText",
+		"boxShape",
+		"nestBlock"
+	],
+	"name" : "CALegendBuilder",
+	"type" : "normal"
+}

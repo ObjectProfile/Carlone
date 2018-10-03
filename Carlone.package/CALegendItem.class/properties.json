@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "CAObject",
+	"category" : "Carlone-Builder-Legend",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"textSize"
+	],
+	"name" : "CALegendItem",
+	"type" : "normal"
+}

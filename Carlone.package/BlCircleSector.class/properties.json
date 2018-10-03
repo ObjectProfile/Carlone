@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "akevalion 12/15/2017 19:22",
+	"super" : "BlGeometry",
+	"category" : "Carlone-Bloc",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"alphaAngle",
+		"betaAngle",
+		"innerRadius",
+		"externalRadius",
+		"arcPadding",
+		"cornerRadii"
+	],
+	"name" : "BlCircleSector",
+	"type" : "normal"
+}

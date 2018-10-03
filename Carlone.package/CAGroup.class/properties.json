@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "akevalion 1/10/2018 17:57",
+	"super" : "OrderedCollection",
+	"category" : "Carlone-Core-OLD-TODELETE",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"elementFromModelCache"
+	],
+	"name" : "CAGroup",
+	"type" : "normal"
+}

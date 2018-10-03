@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "akevalion 3/16/2018 18:51",
+	"super" : "CAAbstractTreeBuilder",
+	"category" : "Carlone-Builder-Treemap",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"inset",
+		"extent",
+		"rectangle"
+	],
+	"name" : "CATreeMapBuilder",
+	"type" : "normal"
+}

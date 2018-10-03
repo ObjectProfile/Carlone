@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "akevalion 2/13/2018 15:36",
+	"super" : "CAAbstractExamples",
+	"category" : "Carlone-Examples",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CALegendBuilderExamples",
+	"type" : "normal"
+}

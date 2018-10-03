@@ -1,0 +1,22 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Carlone-Roassal-layouts",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"charge",
+		"x",
+		"y",
+		"leaf",
+		"nodes",
+		"origin",
+		"corner",
+		"node",
+		"cx",
+		"cy"
+	],
+	"name" : "RTQuadTree",
+	"type" : "normal"
+}

@@ -1,0 +1,20 @@
+{
+	"commentStamp" : "",
+	"super" : "RTLayout",
+	"category" : "Carlone-Roassal-layouts",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"gapSize",
+		"horizontalGap",
+		"verticalGap",
+		"horizontalOutGap",
+		"verticalOutGap",
+		"alignment",
+		"horizontallyStretchable",
+		"verticallyStretchable"
+	],
+	"name" : "RTAbstractLineLayout",
+	"type" : "normal"
+}

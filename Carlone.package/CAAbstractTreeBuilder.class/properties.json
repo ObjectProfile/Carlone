@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "akevalion 3/16/2018 17:59",
+	"super" : "CABuilder",
+	"category" : "Carlone-Core-OLD-TODELETE",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"elements",
+		"rootNodes",
+		"weight"
+	],
+	"name" : "CAAbstractTreeBuilder",
+	"type" : "normal"
+}

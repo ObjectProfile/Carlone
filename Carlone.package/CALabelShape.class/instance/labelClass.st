@@ -1,0 +1,3 @@
+accessing
+labelClass
+	^ self secondClass

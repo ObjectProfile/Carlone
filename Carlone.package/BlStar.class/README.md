@@ -1,0 +1,1 @@
+I am a subclass of BlPolygon, But with the posibility of create a different stars

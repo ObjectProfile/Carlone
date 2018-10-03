@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "akevalion 9/14/2018 01:49",
+	"super" : "BlElement",
+	"category" : "Carlone-Bloc",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"session",
+		"cachedSurface",
+		"crash"
+	],
+	"name" : "CAWindowsCrashElement",
+	"type" : "normal"
+}

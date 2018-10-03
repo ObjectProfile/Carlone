@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "CATest",
+	"category" : "Carlone-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"b"
+	],
+	"name" : "CALegendBuilderTest",
+	"type" : "normal"
+}

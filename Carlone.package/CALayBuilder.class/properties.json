@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "Carlone-Builder-LayoutBuilder",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"layoutImplementation"
+	],
+	"name" : "CALayBuilder",
+	"type" : "normal"
+}

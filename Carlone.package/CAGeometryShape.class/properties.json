@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "akevalion 1/17/2018 19:39",
+	"super" : "CAAbstractModelDescriptor",
+	"category" : "Carlone-Core-OLD-TODELETE",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"interaction",
+		"layout",
+		"postCreation"
+	],
+	"name" : "CAGeometryShape",
+	"type" : "normal"
+}

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "CALegendItem",
+	"category" : "Carlone-Builder-Legend",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"colors",
+		"description"
+	],
+	"name" : "CAColorFadingLegendItem",
+	"type" : "normal"
+}

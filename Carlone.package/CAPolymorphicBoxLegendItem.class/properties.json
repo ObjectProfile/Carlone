@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "CALegendItem",
+	"category" : "Carlone-Builder-Legend",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"widthDescription",
+		"heightDescription",
+		"boxDescription"
+	],
+	"name" : "CAPolymorphicBoxLegendItem",
+	"type" : "normal"
+}

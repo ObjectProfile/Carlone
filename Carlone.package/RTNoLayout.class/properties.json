@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "RTLayout",
+	"category" : "Carlone-Roassal-layouts",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "RTNoLayout",
+	"type" : "normal"
+}

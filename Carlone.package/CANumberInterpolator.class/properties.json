@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "akevalion 2/8/2018 19:01",
+	"super" : "CAInterpolator",
+	"category" : "Carlone-Scales",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CANumberInterpolator",
+	"type" : "normal"
+}

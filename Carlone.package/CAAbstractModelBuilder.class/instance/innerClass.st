@@ -1,0 +1,3 @@
+accesing
+innerClass
+	^ innerClass 

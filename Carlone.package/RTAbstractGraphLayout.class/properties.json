@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "RTEdgeDrivenLayout",
+	"category" : "Carlone-Roassal-layouts",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"verticalGap",
+		"horizontalGap",
+		"cachedChildren",
+		"cachedParents",
+		"cachedParentsWithHighestNestings"
+	],
+	"name" : "RTAbstractGraphLayout",
+	"type" : "normal"
+}

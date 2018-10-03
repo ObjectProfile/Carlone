@@ -1,0 +1,1 @@
+I am a scale for ordinal ranges

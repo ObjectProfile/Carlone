@@ -1,0 +1,21 @@
+{
+	"commentStamp" : "akevalion 9/14/2018 02:05",
+	"super" : "CABuilder",
+	"category" : "Carlone-Builder-Pie",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"objects",
+		"values",
+		"sum",
+		"elements",
+		"textElements",
+		"postCreation",
+		"gap",
+		"label",
+		"start"
+	],
+	"name" : "CAPieBuilder",
+	"type" : "normal"
+}

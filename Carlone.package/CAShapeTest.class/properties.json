@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "CATest",
+	"category" : "Carlone-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "CAShapeTest",
+	"type" : "normal"
+}

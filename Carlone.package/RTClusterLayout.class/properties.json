@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "RTAbstractGraphLayout",
+	"category" : "Carlone-Roassal-layouts",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"externalLayer",
+		"maxLayer",
+		"maxAbcissa"
+	],
+	"name" : "RTClusterLayout",
+	"type" : "normal"
+}

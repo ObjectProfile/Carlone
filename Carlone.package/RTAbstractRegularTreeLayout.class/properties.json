@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "RTAbstractGraphLayout",
+	"category" : "Carlone-Roassal-layouts",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"alreadyLayoutedNodes",
+		"topGap",
+		"leftGap",
+		"nodesByLayer",
+		"isLayered",
+		"shouldBeHorizontallyReversed",
+		"shouldBeVerticallyReversed"
+	],
+	"name" : "RTAbstractRegularTreeLayout",
+	"type" : "normal"
+}

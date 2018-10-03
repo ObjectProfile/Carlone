@@ -1,0 +1,17 @@
+{
+	"classtraitcomposition" : "TBlTextStyleable classTrait",
+	"classvars" : [ ],
+	"instvars" : [
+		"textElement",
+		"attributes",
+		"interaction"
+	],
+	"name" : "CALabelShape",
+	"commentStamp" : "akevalion 1/17/2018 19:46",
+	"super" : "CAAbstractModelDescriptor",
+	"traitcomposition" : "TBlTextStyleable",
+	"type" : "normal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"category" : "Carlone-Core"
+}

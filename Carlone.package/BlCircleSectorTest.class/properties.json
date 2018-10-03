@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "CATest",
+	"category" : "Carlone-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"arc"
+	],
+	"name" : "BlCircleSectorTest",
+	"type" : "normal"
+}

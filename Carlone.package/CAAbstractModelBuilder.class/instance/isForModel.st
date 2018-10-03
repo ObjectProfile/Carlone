@@ -1,0 +1,3 @@
+testing
+isForModel
+	^ isForElement not

@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "RTLayout",
+	"category" : "Carlone-Roassal-layouts",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"gapSize",
+		"lineItemsCountBlock"
+	],
+	"name" : "RTAbstractGridLayout",
+	"type" : "normal"
+}

@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "RTLayout",
+	"category" : "Carlone-Roassal-layouts",
+	"classinstvars" : [
+		"aBlock",
+		"maxWithBlock"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"maxWidth",
+		"gapSize",
+		"alignment"
+	],
+	"name" : "RTAbstractFlowLayout",
+	"type" : "normal"
+}

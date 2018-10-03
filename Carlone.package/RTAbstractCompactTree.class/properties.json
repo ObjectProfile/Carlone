@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "RTAbstractGraphLayout",
+	"category" : "Carlone-Roassal-layouts",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"sonsDictionary",
+		"root",
+		"initialLayout",
+		"margin"
+	],
+	"name" : "RTAbstractCompactTree",
+	"type" : "normal"
+}

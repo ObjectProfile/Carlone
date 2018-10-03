@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "akevalion 3/16/2018 19:02",
+	"super" : "Rectangle",
+	"category" : "Carlone-Builder-Treemap",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"currentSubrectangle",
+		"subrectangles",
+		"inset"
+	],
+	"name" : "CARectangleTreeMap",
+	"type" : "normal"
+}

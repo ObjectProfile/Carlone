@@ -1,0 +1,16 @@
+{
+	"commentStamp" : "",
+	"super" : "RTLayout",
+	"category" : "Carlone-Roassal-layouts",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"condition",
+		"thenLayout",
+		"elseLayout",
+		"overallLayout"
+	],
+	"name" : "RTConditionalLayout",
+	"type" : "normal"
+}

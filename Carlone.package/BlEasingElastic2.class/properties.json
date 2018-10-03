@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "akevalion 1/26/2018 11:45",
+	"super" : "BlEasing",
+	"category" : "Carlone-Bloc",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"p",
+		"a",
+		"s"
+	],
+	"name" : "BlEasingElastic2",
+	"type" : "normal"
+}

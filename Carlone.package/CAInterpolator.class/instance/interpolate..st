@@ -1,0 +1,3 @@
+interpolation
+interpolate: anObject
+	self subclassResponsibility

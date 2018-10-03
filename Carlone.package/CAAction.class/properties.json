@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "CAObject",
+	"category" : "Carlone-Core2",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"action",
+		"isPreloadAction",
+		"element"
+	],
+	"name" : "CAAction",
+	"type" : "normal"
+}
