@@ -17,13 +17,14 @@ CAViewTest >> testBasic01 [
 
 { #category : #tests }
 CAViewTest >> testBasic02 [
-	| view shape |
+	| view shape elements |
 	view := CAView new.
-	shape := CAGeometryBuilder box
-		background: (Color red alpha: 0.2);
-		size: #numberOfMethods.
-	view addAll: (shape elementsOn: Collection withAllSubclasses).
+	shape := CAGeometryBuilder rectangle
+	size: #linesOfCode.
+	shape interaction popupText: #name.
+	elements := shape elementsOn: Collection withAllSubclasses.
 	view layout grid.
-	view do.
-	
+	view addAll: elements.
+	elements.
+	view
 ]

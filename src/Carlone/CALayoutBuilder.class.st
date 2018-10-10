@@ -14,7 +14,7 @@ CALayoutBuilder >> elementOn: aBlElment index: index [
 	el caModel: aBlElment.
 	
 	layout := self layoutClass new.
-	self updateElement: el second: layout.
+	self updateElement: el innerComponent: layout.
 	
 	^ layout
 ]
@@ -34,7 +34,6 @@ CALayoutBuilder >> frame [
 { #category : #'public - layout' }
 CALayoutBuilder >> grid [
 	self layoutClass: BlGridLayout.
-	
 	self columnCount: [ :e | | height width elements |
 		elements := e children.
 		(elements size < 3 
@@ -48,15 +47,14 @@ CALayoutBuilder >> grid [
 
 { #category : #accessing }
 CALayoutBuilder >> layoutClass [
-	^ self secondClass
+	^ self innerClass
 ]
 
 { #category : #accessing }
 CALayoutBuilder >> layoutClass: aClass [
 	self
-		secondClass: aClass;
+		innerClass: aClass;
 		elementClass: CAElement.
-	self clean.
 ]
 
 { #category : #initialization }

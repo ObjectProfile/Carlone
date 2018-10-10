@@ -30,11 +30,6 @@ CAInteractionBuilder >> draggable [
 	
 ]
 
-{ #category : #accessing }
-CAInteractionBuilder >> draggale [
-	
-]
-
 { #category : #initialization }
 CAInteractionBuilder >> initialize [
 	super initialize.

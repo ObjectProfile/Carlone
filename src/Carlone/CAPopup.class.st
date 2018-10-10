@@ -56,7 +56,7 @@ CAPopup >> onElement: anElement [
 		anElement topMostParent userData at: #popup ifPresent: [ :popupEl | 
 		popupEl removeFromParent ] ].
 	anElement 
-		when: "BlMouseEnterEvent" BlMouseMoveEvent do: [ :evt | | popupElement textElement |
+		when: BlMouseMoveEvent do: [ :evt | | popupElement textElement |
 			remove value: evt.
 			textElement := label elementOn: anElement caModel.
 			textElement computeLayout.
@@ -68,5 +68,6 @@ CAPopup >> onElement: anElement [
 			anElement topMostParent addChild: popupElement.
 			popupElement relocate: evt position + (10 @ 10).
 			anElement topMostParent userData at: #popup put: popupElement. ];
-		when: BlMouseOutEvent do: remove.
+		when: BlMouseOutEvent do: remove;
+		when: BlBaseDragEvent do: remove.
 ]
