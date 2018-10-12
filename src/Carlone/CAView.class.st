@@ -26,7 +26,7 @@ CAView class >> example01 [
 	shape interaction
 		popupText: #name";
 		draggable".
-	view layout grid cellSpacing: 10.
+	view layout grid cellSpacing: 100.
 	elements := shape elementsOn: Collection withAllSubclasses.
 	view addAll: elements.
 	view inspect
